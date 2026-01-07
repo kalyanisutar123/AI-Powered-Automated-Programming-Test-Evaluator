@@ -1,0 +1,23 @@
+# Web framework
+Flask==3.0.3
+Flask-Login==0.6.3
+
+# Database
+PyMySQL==1.1.1
+
+# Environment variables
+python-dotenv==1.0.1
+
+# ML & data (allow pip to pick a compatible wheel for your Python)
+scikit-learn>=1.5,<2
+pandas>=2.2,<3
+numpy>=1.26
+
+# Excel
+openpyxl==3.1.5
+
+# HTTP client for JDoodle
+requests==2.32.3
+
+# Optional utilities
+Werkzeug==3.0.4

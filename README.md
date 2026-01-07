@@ -1,2 +1,0 @@
-# AI-Powered-Automated-Programming-Test-Evaluator
-The automated programming examination system modernizes coding exams by ensuring fairness, efficiency, and security. Using AI and machine learning, it removes manual grading, reduces cheating, supports multiple programming languages, and automates scheduling, problem assignment, and evaluation, reducing teachers’ workload and ensuring smooth exams.
