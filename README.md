@@ -1,78 +1,78 @@
-# Stakeholder Insights and Performance Dashboard
+# AI-Powered Automated Programming Test Evaluator
 
 ## Overview
 
-This project involves the development of an interactive **Stakeholder Insights and Performance Dashboard** using **Power BI** to visualize and analyze key business and financial metrics. The dashboard provides insights into total premium, stakeholder demographics, equity value creation, insurer performance, profitability, assets under management, and policy tenure, enabling stakeholders to monitor performance and make data-driven decisions.
+The **AI-Powered Automated Programming Test Evaluator** is an intelligent programming examination system designed to automate the process of conducting, evaluating, and managing coding tests.
+
+The system uses **Artificial Intelligence, Machine Learning, Python, and SQL** to reduce manual evaluation effort, improve examination efficiency, support multiple programming languages, and provide automated assessment of programming test performance.
 
 ## Key Features
 
-- **Total Premium Analysis:** Monitored and visualized premium performance across different years.
-- **Average Age of Stakeholders:** Analyzed the average age of stakeholders to understand demographic characteristics.
-- **Equity Value Created:** Measured equity value created across stakeholders and business segments.
-- **Value Created by Insurer:** Compared value creation across different insurers.
-- **Premium Over Time:** Analyzed yearly premium trends and performance.
-- **Shareholding Pattern:** Visualized the distribution of shareholding among different stakeholder categories.
-- **Assets Under Management:** Compared assets under management across stakeholder types.
-- **Profitability by City:** Analyzed profitability across cities based on policy tenure.
-- **Interactive Filters:** Enabled dynamic analysis using gender, city, stakeholder, date, premium, profitability, and assets under management.
+- **Automated Programming Evaluation:** Automatically evaluates submitted programming solutions.
+- **AI-Based Assessment:** Uses an AI/ML model to assist in evaluating programming test performance.
+- **Multiple Programming Languages:** Designed to support coding assessments across different programming languages.
+- **Automated Test Management:** Helps manage programming examinations and test-related information.
+- **Problem Assignment:** Supports assigning programming problems to candidates.
+- **Performance Evaluation:** Analyzes candidate performance based on programming test results.
+- **Database Integration:** Uses SQL for managing and storing examination-related data.
+- **Training Data:** Uses structured training data to support the AI-based evaluation process.
+- **Reduced Manual Work:** Minimizes the effort required for manually checking programming tests.
+- **Improved Examination Efficiency:** Helps streamline the overall coding examination workflow.
 
 ## Project Workflow
 
-### Data Collection
+### Test Creation
 
-- Collected stakeholder and financial data from structured datasets.
-- Included information related to premiums, profitability, equity value, assets under management, insurers, cities, and policy tenure.
+- Programming examination data is maintained using structured datasets.
+- Programming problems and examination details are managed through the application.
+- Test-related information can be stored and retrieved using the database.
 
-### Data Cleaning
+### Candidate Assessment
 
-- Handled missing and inconsistent data.
-- Standardized data types and categories.
-- Prepared data for analysis using **Power Query**.
-- Removed unnecessary data and transformed relevant fields.
+- Candidates participate in programming tests.
+- Programming solutions are submitted for evaluation.
+- The system processes the submitted programming test information.
 
-### Data Analysis
+### AI-Based Evaluation
 
-- Calculated key KPIs and business metrics using **DAX**.
-- Analyzed premium trends over time.
-- Compared insurer-wise value creation.
-- Examined profitability based on city and policy tenure.
-- Analyzed stakeholder shareholding and asset distribution.
+- The trained machine learning model is used for automated assessment.
+- The system analyzes programming test data and generates evaluation results.
+- Automated evaluation helps reduce dependency on manual assessment.
 
-### Data Visualization
+### Database Management
 
-- Developed an interactive **Power BI dashboard**.
-- Created KPI cards, bar charts, stacked charts, pie charts, and matrix visualizations.
-- Added slicers for dynamic filtering and analysis.
+- SQL is used to manage examination-related data.
+- Candidate and test information can be stored in the database.
+- SQL queries support data retrieval and analysis.
 
-### Insights and Reporting
+### Result Analysis
 
-- Identified trends in premium and profitability.
-- Analyzed stakeholder contribution to assets under management.
-- Compared insurer-wise value creation.
-- Evaluated profitability across cities and policy tenure.
-- Presented findings through an interactive dashboard.
+- Programming test performance is analyzed.
+- Evaluation results can be used to understand candidate performance.
+- The system helps streamline the generation of assessment results.
 
-## Key Insights
+## Technology Stack
 
-- **Premium Performance:** Premium trends were analyzed across multiple years to understand changes in business performance.
-- **Equity Value:** Equity value creation was analyzed across different stakeholder categories.
-- **Insurer Performance:** Insurers were compared based on the value they created.
-- **Profitability:** Profitability was analyzed across different cities and policy tenure groups.
-- **Assets Under Management:** Stakeholder-wise asset distribution was analyzed to understand the contribution of different stakeholder categories.
-- **Shareholding:** Shareholding patterns were visualized to understand stakeholder distribution.
+- **Python**
+- **Machine Learning**
+- **Artificial Intelligence**
+- **SQL**
+- **Pandas**
+- **Scikit-learn**
+- **Flask**
+- **Excel / CSV**
+- **HTML/CSS** 
 
-## Tools & Technologies
+## Project Structure
 
-- **Power BI**
-- **Power Query**
-- **DAX**
-- **Microsoft Excel / CSV**
-- **Data Cleaning**
-- **Data Analysis**
-- **Data Visualization**
-- **Business Intelligence**
-
-## Conclusion
-
-This project successfully transformed stakeholder and financial data into an **interactive Power BI analytics dashboard**. By combining **Power Query, DAX, data analysis, and visualization**, the dashboard provides a comprehensive view of business performance, stakeholder behavior, profitability, premium trends, and asset management, supporting data-driven business analysis and decision-making.
-
+```text
+AI-Powered-Automated-Programming-Test-Evaluator/
+│
+├── app.py
+├── train_model.py
+├── ai_model.pkl
+├── ai_training_data.csv
+├── ai_test_evaluator.sql
+├── exams.xlsx
+├── requirements.txt
+└── README.md
